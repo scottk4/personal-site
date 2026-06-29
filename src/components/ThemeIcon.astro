@@ -28,9 +28,9 @@
       return localStorageTheme;
     }
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark';
+        return 'dark';
     }
-      return 'light';
+    return 'light';
   })();
 
   if (theme === 'light') {
